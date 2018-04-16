@@ -7,10 +7,10 @@ def f(x, y):
     return (y + 2 * x)
 
 #Get user input for start and end point, as well as step-size
-x0 = input("X-Start: ")
-y0 = input("Y-Start: ")
-h = input("H: ")
-s = input("End: ")
+x0 = float(input("X-Start: "))
+y0 = float(input("Y-Start: "))
+h = float(input("H: "))
+s = float(input("End: "))
 
 #Init list for x, and y axes
 xlist = [x0]
